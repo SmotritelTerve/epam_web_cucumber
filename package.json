@@ -1,0 +1,19 @@
+{
+  "name": "epam_cucumber",
+  "version": "1.0.0",
+  "description": "Test project to learn Cucumber js",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js features -f json:report/cucumber_report.json"
+  },
+  "keywords": [],
+  "author": "Alexey Ya",
+  "license": "ISC",
+  "dependencies": {
+    "cucumber": "^6.0.5",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  },
+  "devDependencies": {
+    "cucumber-html-reporter": "^5.2.0"
+  }
+}

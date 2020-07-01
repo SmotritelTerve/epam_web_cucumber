@@ -1,0 +1,6 @@
+node_modules
+build
+report
+debug.log
+.env
+.DS_Store
